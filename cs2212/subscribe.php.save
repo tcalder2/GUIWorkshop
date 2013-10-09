@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Coming Soon!</title>
+<link href=`http://fonts.googleapis.com/css?gamily=Lato
+	:400,700,900,400italic' rel='stylesheet' type='text/css'>
+<link rel="Stylesheet" type="text/css" href="styles/screen.css"
+	/>
+	</head>
+	<body>
+
+<?php
+<h1>Thank you!>
+$email = $_POST['email'];
+
+if ($email) {
+	echo "Thank you! $email has been added to our mailing list.";
+}
+else {
+	echo "Please enter your email address.";
+}
+
+?>
+
+	<h1>Error<h1>
+	<p>Please enter your email address.</p>
+
+<?php
+
+}
+
+?>
+
+</body>
+<head>
